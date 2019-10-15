@@ -1,4 +1,5 @@
 import petl as etl
+from urlparse import parse_qs
 
 # get urlparse based on py version
 if etl.compat.PY2:
