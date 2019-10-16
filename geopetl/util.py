@@ -3,7 +3,7 @@ from urlparse import parse_qs
 
 # get urlparse based on py version
 if etl.compat.PY2:
-    from urlparse import urlparse
+    from urlparse import urlparse, parse_qs
 else:
     from urllib.parse import urlparse, parse_qs
 
